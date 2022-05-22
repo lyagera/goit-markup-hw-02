@@ -1,0 +1,140 @@
+:root {
+  --primary-text-color: #212121;
+  --slave-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-border-color: #eeeeee;
+  --slave-back-color: #2f303a;
+  --white-back-color: #f5f4fa;
+}
+body {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+/* header */
+
+li {
+  list-style: none;
+}
+.menu-item {
+  text-decoration: none;
+}
+
+.header-menu .menu-item,
+.header-menu .menu-item:visited {
+  font-size: 14px;
+  color: var(--primary-text-color);
+}
+
+.header-contact-info .menu-item,
+.header-contact-info .menu-item:visited {
+  font-size: 14px;
+  color: var(--slave-text-color);
+}
+.header-menu .menu-item:focus,
+.header-menu .menu-item:hover,
+.menu-item:focus,
+.menu-item:hover {
+  color: var(--accent-text-color);
+}
+.logo {
+  font-family: raleway, sans;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.logo-text {
+  color: var(--accent-text-color);
+}
+
+/* index  */
+
+.section-effect {
+  background-color: #2f303a;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+}
+
+.description-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--slave-text-color);
+}
+.job-title,
+.teem-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.14;
+}
+.teem-item {
+  line-height: 1.19;
+}
+.teem-text {
+  font-weight: 400;
+  line-height: 1.19;
+  color: var(--slave-text-color);
+}
+
+/* portfolio */
+
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.project-item {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.project-text {
+  font-weight: 400;
+  line-height: 1.88;
+  color: var(--slave-text-color);
+}
+.project-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--slave-back-color);
+}
+.footer .logo {
+  color: var(--white-color);
+  text-decoration: none;
+}
+.address-map,
+.address-map:visited {
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+.address-item,
+.address-item:visited {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+}
+.address-item:hover,
+.address-item:focus,
+.address-map:hover,
+.address-map:focus {
+  color: var(--accent-text-color);
+}
