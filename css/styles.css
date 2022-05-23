@@ -62,10 +62,26 @@ li {
   font-weight: 900;
   line-height: 1.36;
 }
+.section-effect-title {
+  text-transform: uppercase;
+}
+.section-effect-button {
+  cursor: pointer;
+  background-color: var(--slave-back-color);
+  color: var(--white-color);
+  border: none;
+  padding: 11px;
+}
+.section-effect-button:hover {
+  cursor: pointer;
+
+  background-color: var(--accent-text-color);
+}
 .description-item {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .description-text {
   font-size: 14px;
@@ -98,6 +114,7 @@ li {
   font-weight: 500;
   line-height: 1.62;
   color: var(--primary-text-color);
+  padding: 11px;
 }
 .filter-button:hover,
 .filter-button:focus {
