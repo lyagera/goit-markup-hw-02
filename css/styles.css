@@ -55,14 +55,18 @@ li {
 /* index  */
 
 .section-effect {
-  background-color: #2f303a;
+  background-color: var(--slave-back-color);
   color: var(--white-color);
   text-align: center;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
 }
-
+.description-item {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+}
 .description-text {
   font-size: 14px;
   font-weight: 400;
@@ -74,6 +78,7 @@ li {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.14;
+  text-align: center;
 }
 .teem-item {
   line-height: 1.19;
@@ -85,7 +90,15 @@ li {
 }
 
 /* portfolio */
-
+.filter-button {
+  background-color: var(--white-back-color);
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--primary-text-color);
+}
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-text-color);
